@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     NGINX_USER = "ubuntu"         // Ubuntu AMI default user
-    NGINX_HOST = "172.31.94.139"  // Replace with your NGINX EC2 public IP
+    NGINX_HOST = "172.31.94.139"  // Replace with your NGINX EC2 private IP
     SSH_CRED_ID = "nginx-ssh-key" // Jenkins SSH credential ID
     WEBSITE_DIR = "/var/www/html" // NGINX web root
   }
